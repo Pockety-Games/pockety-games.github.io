@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pockety Games | Mobile Indie Studio</title>
+    <style>
+        /* Modern Reset & Base Styles */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        a { text-decoration: none; transition: 0.3s; }
+        
+        /* Layout Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header / Hero Section */
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+            border-bottom: 1px solid #333;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #ff4757; /* Pockety Games Accent Color */
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            color: #aaa;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff4757;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.3);
+        }
+        .cta-button:hover {
+            background-color: #e8414f;
+            transform: translateY(-2px);
+        }
+
+        /* Games Grid Section */
+        #games { padding: 60px 0; }
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+            color: white;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
